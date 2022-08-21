@@ -1,6 +1,6 @@
 import { waitFor } from "@/helpers";
 import { SplashScreen } from "@capacitor/splash-screen";
 
-export function hideSplashScreen() {
+export function onAppReady() {
   waitFor(200).then(() => SplashScreen.hide());
 }

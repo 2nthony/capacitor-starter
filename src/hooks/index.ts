@@ -1,5 +1,1 @@
-import { hideSplashScreen } from "./hideSplashScreen";
-
-export function onAppReady() {
-  hideSplashScreen();
-}
+export { onAppReady } from "./onAppReady";
