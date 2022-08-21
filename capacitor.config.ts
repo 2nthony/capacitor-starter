@@ -4,7 +4,7 @@ import { ip } from "address";
 import type { CapacitorConfig } from "@capacitor/cli";
 
 const config: CapacitorConfig = {
-  appId: "2nthony.com",
+  appId: "app.2nthony.com",
   appName: "capacitor-app",
   bundledWebRuntime: false,
   webDir: "dist",
