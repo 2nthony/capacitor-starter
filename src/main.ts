@@ -22,6 +22,9 @@ import "@ionic/vue/css/display.css";
 
 /* Theme variables */
 import "./theme/variables.css";
+
+import "./index.css";
+
 import { onAppReady } from "./hooks";
 
 const app = createApp(App).use(IonicVue).use(router);
