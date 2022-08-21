@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@2nthony/prettier-config': ^1.0.1
   '@capacitor/app': 4.0.1
   '@capacitor/cli': 4.0.1
   '@capacitor/core': 4.0.1
@@ -33,6 +34,7 @@ dependencies:
   vue-router: 4.1.3_vue@3.2.37
 
 devDependencies:
+  '@2nthony/prettier-config': 1.0.1
   '@capacitor/cli': 4.0.1
   '@vitejs/plugin-vue': 3.0.3_vite@3.0.8+vue@3.2.37
   address: 1.2.0
@@ -41,6 +43,10 @@ devDependencies:
   vite: 3.0.8
 
 packages:
+
+  /@2nthony/prettier-config/1.0.1:
+    resolution: {integrity: sha512-GRIHMYFWAfmIGDt9A1LiwoVCd6UoB4WEhqzk7nU4t4VDiXPeO7WAoovkKw3YVEz94gMeo044yLuTiug4EIPFSA==}
+    dev: true
 
   /@babel/helper-string-parser/7.18.10:
     resolution: {integrity: sha512-XtIfWmeNY3i4t7t4D2t02q50HvqHybPqW2ki1kosnvWCwuCMeo81Jf0gwr85jy/neUdg5XDdeFE/80DXiO+njw==}
