@@ -16,9 +16,9 @@
   },
   "dependencies": {
     "@capacitor/app": "4.0.1",
-    "@capacitor/core": "4.0.1",
+    "@capacitor/core": "4.1.0",
     "@capacitor/haptics": "4.0.1",
-    "@capacitor/ios": "4.0.1",
+    "@capacitor/ios": "4.1.0",
     "@capacitor/keyboard": "4.0.1",
     "@capacitor/splash-screen": "4.0.1",
     "@ionic/vue": "6.2.4",
@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@2nthony/prettier-config": "1.0.1",
-    "@capacitor/cli": "4.0.1",
+    "@capacitor/cli": "4.1.0",
     "@vitejs/plugin-vue": "3.0.3",
     "address": "1.2.0",
     "autoprefixer": "10.4.8",
