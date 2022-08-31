@@ -10,7 +10,7 @@ specifiers:
   '@capacitor/keyboard': 4.0.1
   '@capacitor/splash-screen': 4.0.1
   '@ionic/vue': 6.2.5
-  '@ionic/vue-router': 6.2.4
+  '@ionic/vue-router': 6.2.5
   '@vitejs/plugin-vue': 3.0.3
   address: 1.2.0
   autoprefixer: 10.4.8
@@ -32,7 +32,7 @@ dependencies:
   '@capacitor/keyboard': 4.0.1_@capacitor+core@4.1.0
   '@capacitor/splash-screen': 4.0.1_@capacitor+core@4.1.0
   '@ionic/vue': 6.2.5
-  '@ionic/vue-router': 6.2.4
+  '@ionic/vue-router': 6.2.5
   ionicons: 6.0.3
   vue: 3.2.38
   vue-router: 4.1.5_vue@3.2.38
@@ -268,8 +268,8 @@ packages:
       - supports-color
     dev: true
 
-  /@ionic/vue-router/6.2.4:
-    resolution: {integrity: sha512-7gwX1o8V2pCm6sCk7fD/Ws2X6iRCobCDZyJc7jzHynqANhQfr0OsUjqhthedR4NNkC3ZmZBsENDu9/6CZzoVjw==}
+  /@ionic/vue-router/6.2.5:
+    resolution: {integrity: sha512-bitEsfgh7cUslc1ZLEY7BGu05bV4t2L18iSlFNdMDrWN5TCURzh1q1qkLgKw5TRXaJUa/szAXgJrkfMHlNmN3A==}
     dependencies:
       '@ionic/vue': 6.2.5
     dev: false
