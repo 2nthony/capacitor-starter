@@ -30,7 +30,7 @@
   "devDependencies": {
     "@2nthony/prettier-config": "1.0.1",
     "@capacitor/cli": "4.1.0",
-    "@vitejs/plugin-vue": "3.0.3",
+    "@vitejs/plugin-vue": "3.1.0",
     "address": "1.2.0",
     "autoprefixer": "10.4.8",
     "cordova-res": "0.15.4",
