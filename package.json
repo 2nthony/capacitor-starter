@@ -11,10 +11,12 @@
     "build": "vite build",
     "preview": "vite preview",
     "ios": "cap run ios --external",
+    "android": "cap run android --external",
     "sync": "cap sync",
     "res": "cordova-res"
   },
   "dependencies": {
+    "@capacitor/android": "4.1.0",
     "@capacitor/app": "4.0.1",
     "@capacitor/core": "4.1.0",
     "@capacitor/haptics": "4.0.1",
