@@ -10,7 +10,7 @@ const config: CapacitorConfig = {
   webDir: "dist",
   plugins: {
     SplashScreen: {
-      launchAutoHide: false,
+      launchShowDuration: 6000,
     },
   },
   server: {
