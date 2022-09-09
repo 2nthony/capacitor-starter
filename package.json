@@ -16,11 +16,11 @@
     "res": "cordova-res"
   },
   "dependencies": {
-    "@capacitor/android": "4.1.0",
+    "@capacitor/android": "4.2.0",
     "@capacitor/app": "4.0.1",
-    "@capacitor/core": "4.1.0",
+    "@capacitor/core": "4.2.0",
     "@capacitor/haptics": "4.0.1",
-    "@capacitor/ios": "4.1.0",
+    "@capacitor/ios": "4.2.0",
     "@capacitor/keyboard": "4.0.1",
     "@capacitor/splash-screen": "4.0.1",
     "@ionic/vue": "6.2.6",
@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@2nthony/prettier-config": "1.0.1",
-    "@capacitor/cli": "4.1.0",
+    "@capacitor/cli": "4.2.0",
     "@vitejs/plugin-vue": "3.1.0",
     "address": "1.2.0",
     "autoprefixer": "10.4.8",
