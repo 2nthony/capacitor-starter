@@ -24,7 +24,7 @@
     "@capacitor/keyboard": "4.0.1",
     "@capacitor/splash-screen": "4.1.0",
     "@ionic/vue": "6.2.9",
-    "@ionic/vue-router": "6.2.6",
+    "@ionic/vue-router": "6.2.9",
     "ionicons": "6.0.3",
     "vue": "3.2.39",
     "vue-router": "4.1.5"
