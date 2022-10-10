@@ -15,6 +15,7 @@ const config: CapacitorConfig = {
   },
   server: {
     url: `http://${ip()}:5173`,
+    cleartext: true,
   },
 };
 
