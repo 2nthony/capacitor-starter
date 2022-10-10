@@ -10,7 +10,7 @@ specifiers:
   '@capacitor/ios': 4.3.0
   '@capacitor/keyboard': 4.0.1
   '@capacitor/splash-screen': 4.1.0
-  '@ionic/vue': 6.2.9
+  '@ionic/vue': 6.3.0
   '@ionic/vue-router': 6.3.0
   '@vitejs/plugin-vue': 3.1.0
   address: 1.2.1
@@ -33,7 +33,7 @@ dependencies:
   '@capacitor/ios': 4.3.0_@capacitor+core@4.3.0
   '@capacitor/keyboard': 4.0.1_@capacitor+core@4.3.0
   '@capacitor/splash-screen': 4.1.0_@capacitor+core@4.3.0
-  '@ionic/vue': 6.2.9
+  '@ionic/vue': 6.3.0
   '@ionic/vue-router': 6.3.0
   ionicons: 6.0.3
   vue: 3.2.40
@@ -181,14 +181,6 @@ packages:
       - supports-color
     dev: true
 
-  /@ionic/core/6.2.9:
-    resolution: {integrity: sha512-d2KBXYUKBND2AD8aMgash3O/t04IDc/DHHMshcOydfNJ5qqAxwJYzZR7hs96UknCcIlhHk1pb5C29epkv7gOcQ==}
-    dependencies:
-      '@stencil/core': 2.18.0
-      ionicons: 6.0.3
-      tslib: 2.4.0
-    dev: false
-
   /@ionic/core/6.3.0:
     resolution: {integrity: sha512-6MR0hOdIM6sQyZyXez3/jWAnHScrZKaQxzGT2XiXXIpBrKztNdeAhqDLXoxbDU1PLyDnXXPWBzT6xZ698gG67g==}
     dependencies:
@@ -290,13 +282,6 @@ packages:
     resolution: {integrity: sha512-GEozV84HQNKShyyovLdgrnTP7vLaWcVm8DeYpbzAZOZ9kVY/a18B6WPI1WMk8vrg/rkYTOGP0iKweURTi5+w/Q==}
     dependencies:
       '@ionic/vue': 6.3.0
-    dev: false
-
-  /@ionic/vue/6.2.9:
-    resolution: {integrity: sha512-B0/T5MvVVQU+j+N4AoY/TLpOgPH9Fx/lWLK+BnOpkWHawmTNrw//iWgl1ypg7gOeRHAQIbKgmcyDpPhY7neo/w==}
-    dependencies:
-      '@ionic/core': 6.2.9
-      ionicons: 6.0.3
     dev: false
 
   /@ionic/vue/6.3.0:
