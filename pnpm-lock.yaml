@@ -12,7 +12,7 @@ specifiers:
   '@capacitor/splash-screen': 4.1.0
   '@ionic/vue': 6.3.0
   '@ionic/vue-router': 6.3.0
-  '@vitejs/plugin-vue': 3.1.0
+  '@vitejs/plugin-vue': 3.1.2
   address: 1.2.1
   autoprefixer: 10.4.8
   cordova-res: 0.15.4
@@ -42,7 +42,7 @@ dependencies:
 devDependencies:
   '@2nthony/prettier-config': 1.0.1
   '@capacitor/cli': 4.3.0
-  '@vitejs/plugin-vue': 3.1.0_vite@3.1.0+vue@3.2.40
+  '@vitejs/plugin-vue': 3.1.2_vite@3.1.0+vue@3.2.40
   address: 1.2.1
   autoprefixer: 10.4.8_postcss@8.4.16
   cordova-res: 0.15.4
@@ -338,8 +338,8 @@ packages:
     resolution: {integrity: sha512-+OpjSaq85gvlZAYINyzKpLeiFkSC4EsC6IIiT6v6TLSU5k5U83fHGj9Lel8oKEXM0HqgrMVCjXPDPVICtxF7EQ==}
     dev: true
 
-  /@vitejs/plugin-vue/3.1.0_vite@3.1.0+vue@3.2.40:
-    resolution: {integrity: sha512-fmxtHPjSOEIRg6vHYDaem+97iwCUg/uSIaTzp98lhELt2ISOQuDo2hbkBdXod0g15IhfPMQmAxh4heUks2zvDA==}
+  /@vitejs/plugin-vue/3.1.2_vite@3.1.0+vue@3.2.40:
+    resolution: {integrity: sha512-3zxKNlvA3oNaKDYX0NBclgxTQ1xaFdL7PzwF6zj9tGFziKwmBa3Q/6XcJQxudlT81WxDjEhHmevvIC4Orc1LhQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^3.0.0
