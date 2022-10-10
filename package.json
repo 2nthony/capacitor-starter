@@ -34,7 +34,7 @@
     "@capacitor/cli": "4.3.0",
     "@vitejs/plugin-vue": "3.1.2",
     "address": "1.2.1",
-    "autoprefixer": "10.4.8",
+    "autoprefixer": "10.4.12",
     "cordova-res": "0.15.4",
     "postcss": "8.4.16",
     "prettier": "2.7.1",
