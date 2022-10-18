@@ -10,9 +10,10 @@
     "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview",
-    "ios": "cap run ios --external",
-    "android": "cap run android --external",
+    "ios": "APP_ENV=dev cap run ios --external",
+    "android": "APP_ENV=dev cap run android --external",
     "sync": "cap sync",
+    "copy": "cap copy",
     "assets": "capacitor-assets generate"
   },
   "dependencies": {
