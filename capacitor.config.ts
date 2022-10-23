@@ -1,9 +1,9 @@
 /// <reference types="@capacitor/splash-screen" />
 
-const isDev = process.env.APP_ENV === "dev";
-
 import { ip } from "address";
 import type { CapacitorConfig } from "@capacitor/cli";
+
+const isDev = process.env.APP_ENV === "dev";
 
 const config: CapacitorConfig = {
   appId: "com.capacitorjs.app",
