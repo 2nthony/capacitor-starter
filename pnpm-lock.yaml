@@ -4,7 +4,7 @@ specifiers:
   '@2nthony/prettier-config': 1.0.1
   '@capacitor/android': 4.4.0
   '@capacitor/app': 4.1.0
-  '@capacitor/assets': 1.0.14
+  '@capacitor/assets': 2.0.4
   '@capacitor/cli': 4.4.0
   '@capacitor/core': 4.4.0
   '@capacitor/haptics': 4.0.1
@@ -37,7 +37,7 @@ devDependencies:
   '@2nthony/prettier-config': 1.0.1
   '@capacitor/android': 4.4.0_@capacitor+core@4.4.0
   '@capacitor/app': 4.1.0_@capacitor+core@4.4.0
-  '@capacitor/assets': 1.0.14_cbe7ovvae6zqfnmtgctpgpys54
+  '@capacitor/assets': 2.0.4_cbe7ovvae6zqfnmtgctpgpys54
   '@capacitor/cli': 4.4.0
   '@capacitor/core': 4.4.0
   '@capacitor/haptics': 4.0.1_@capacitor+core@4.4.0
@@ -115,8 +115,8 @@ packages:
       '@capacitor/core': 4.4.0
     dev: true
 
-  /@capacitor/assets/1.0.14_cbe7ovvae6zqfnmtgctpgpys54:
-    resolution: {integrity: sha512-vP4KXrttcliE6tewY42MNdSIrI7+HbBpZ0DeiTIl+rw4dPByu5O34TQndB1Oj/NsjbSdaq1RF/mlfUycQ0Zc/Q==}
+  /@capacitor/assets/2.0.4_cbe7ovvae6zqfnmtgctpgpys54:
+    resolution: {integrity: sha512-1zYuwJujihsCLavojpZQQEjQjxG8BgD2/QWaX1Je2TQgN8UVbmnQG7gO+6gaHqP+hgZu7SOcJ+BlMG+tarBXLA==}
     engines: {node: '>=10.3.0'}
     hasBin: true
     dependencies:
