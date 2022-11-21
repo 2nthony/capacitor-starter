@@ -26,7 +26,7 @@
   "devDependencies": {
     "@2nthony/prettier-config": "1.0.1",
     "@capacitor/android": "4.4.0",
-    "@capacitor/app": "4.1.0",
+    "@capacitor/app": "4.1.1",
     "@capacitor/assets": "1.0.14",
     "@capacitor/cli": "4.4.0",
     "@capacitor/core": "4.4.0",
