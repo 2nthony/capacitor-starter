@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@2nthony/prettier-config': 1.0.1
   '@capacitor/android': 4.4.0
-  '@capacitor/app': 4.1.0
+  '@capacitor/app': 4.1.1
   '@capacitor/assets': 1.0.14
   '@capacitor/cli': 4.4.0
   '@capacitor/core': 4.4.0
@@ -36,7 +36,7 @@ dependencies:
 devDependencies:
   '@2nthony/prettier-config': 1.0.1
   '@capacitor/android': 4.4.0_@capacitor+core@4.4.0
-  '@capacitor/app': 4.1.0_@capacitor+core@4.4.0
+  '@capacitor/app': 4.1.1_@capacitor+core@4.4.0
   '@capacitor/assets': 1.0.14_cbe7ovvae6zqfnmtgctpgpys54
   '@capacitor/cli': 4.4.0
   '@capacitor/core': 4.4.0
@@ -107,8 +107,8 @@ packages:
       '@capacitor/core': 4.4.0
     dev: true
 
-  /@capacitor/app/4.1.0_@capacitor+core@4.4.0:
-    resolution: {integrity: sha512-QPZh+fnndlL1fT8jUmx8R7KPaWZDNJf/Aj1BiU867AxHnQNnM0a6wwDdQKGhA7OOniudekHEdrJAzHnPnKtLNg==}
+  /@capacitor/app/4.1.1_@capacitor+core@4.4.0:
+    resolution: {integrity: sha512-SJcJA1rhFQyeH6eLfUEbdKkHzAwzahJNVPNXmU88fdmXpMgM2dJGzZj1vrm6e21aQq+Z4aBVLJ2RCdj92zD7wg==}
     peerDependencies:
       '@capacitor/core': ^4.0.0
     dependencies:
