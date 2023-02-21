@@ -25,12 +25,8 @@ import "./theme/variables.css";
 
 import "./index.css";
 
-import { onAppReady } from "./hooks";
-
 const app = createApp(App).use(IonicVue).use(router);
 
 router.isReady().then(() => {
-  onAppReady();
-
   app.mount("#app");
 });

@@ -1,1 +1,0 @@
-export { onAppReady } from "./onAppReady";
