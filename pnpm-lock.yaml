@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@2nthony/prettier-config': 1.0.1
+  '@2nthony/prettier-config': 1.0.2
   '@capacitor/android': 4.4.0
   '@capacitor/app': 4.1.1
   '@capacitor/assets': 1.0.14
@@ -34,7 +34,7 @@ dependencies:
   vue-router: 4.1.6_vue@3.2.41
 
 devDependencies:
-  '@2nthony/prettier-config': 1.0.1
+  '@2nthony/prettier-config': 1.0.2
   '@capacitor/android': 4.4.0_@capacitor+core@4.4.0
   '@capacitor/app': 4.1.1_@capacitor+core@4.4.0
   '@capacitor/assets': 1.0.14_cbe7ovvae6zqfnmtgctpgpys54
@@ -56,8 +56,8 @@ devDependencies:
 
 packages:
 
-  /@2nthony/prettier-config/1.0.1:
-    resolution: {integrity: sha512-GRIHMYFWAfmIGDt9A1LiwoVCd6UoB4WEhqzk7nU4t4VDiXPeO7WAoovkKw3YVEz94gMeo044yLuTiug4EIPFSA==}
+  /@2nthony/prettier-config/1.0.2:
+    resolution: {integrity: sha512-yqVfgzzJC2wZ8Fg9H/Smctv57ufKt2Z5QIADCHHMAyoSHZBvlEpKiTByYpwoTmjGhzwCE6d/TMk1hfsYDCc5Ew==}
     dev: true
 
   /@babel/code-frame/7.18.6:
