@@ -1,25 +1,25 @@
-<template>
-  <ion-app>
-    <ion-router-outlet />
-  </ion-app>
-</template>
-
 <script lang="ts">
-import { SplashScreen } from "@capacitor/splash-screen";
-import { IonApp, IonRouterOutlet } from "@ionic/vue";
-import { defineComponent } from "vue";
-import { sleep } from "./helpers";
+import { SplashScreen } from '@capacitor/splash-screen'
+import { IonApp, IonRouterOutlet } from '@ionic/vue'
+import { defineComponent } from 'vue'
+import { sleep } from './helpers'
 
 export default defineComponent({
-  name: "App",
+  name: 'App',
   components: {
     IonApp,
     IonRouterOutlet,
   },
   mounted() {
     sleep(200).then(() => {
-      SplashScreen.hide();
-    });
+      SplashScreen.hide()
+    })
   },
-});
+})
 </script>
+
+<template>
+  <IonApp>
+    <IonRouterOutlet />
+  </IonApp>
+</template>

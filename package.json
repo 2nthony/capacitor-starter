@@ -2,6 +2,8 @@
   "name": "capacitor-app",
   "version": "0.1.0",
   "description": "An Amazing Capacitor App",
+  "author": "",
+  "license": "MIT",
   "keywords": [
     "capacitor",
     "mobile"
@@ -14,7 +16,9 @@
     "android": "APP_ENV=dev cap run android --external",
     "sync": "cap sync",
     "copy": "cap copy",
-    "assets": "capacitor-assets generate"
+    "assets": "capacitor-assets generate",
+    "lint": "eslint .",
+    "lint-fix": "npm run lint -- --fix"
   },
   "dependencies": {
     "@ionic/vue": "6.5.5",
@@ -43,7 +47,5 @@
     "tailwindcss": "3.2.7",
     "typescript": "4.9.5",
     "vite": "4.1.3"
-  },
-  "author": "",
-  "license": "MIT"
+  }
 }

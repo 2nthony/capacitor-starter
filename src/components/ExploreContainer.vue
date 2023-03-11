@@ -1,19 +1,19 @@
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+  name: 'ExploreContainer',
+  props: {
+    name: String,
+  },
+})
+</script>
+
 <template>
   <div id="container">
     <strong>{{ name }}</strong>
   </div>
 </template>
-
-<script lang="ts">
-import { defineComponent } from "vue";
-
-export default defineComponent({
-  name: "ExploreContainer",
-  props: {
-    name: String,
-  },
-});
-</script>
 
 <style scoped>
 #container {

@@ -1,35 +1,16 @@
-<template>
-  <ion-page>
-    <ion-header>
-      <ion-toolbar>
-        <ion-title>Tab 2</ion-title>
-      </ion-toolbar>
-    </ion-header>
-    <ion-content :fullscreen="true">
-      <ion-header collapse="condense">
-        <ion-toolbar>
-          <ion-title size="large">Tab 2</ion-title>
-        </ion-toolbar>
-      </ion-header>
-
-      <ExploreContainer name="Tab 2 page" />
-    </ion-content>
-  </ion-page>
-</template>
-
 <script lang="ts">
-import { defineComponent } from "vue";
+import { defineComponent } from 'vue'
 import {
-  IonPage,
-  IonHeader,
-  IonToolbar,
-  IonTitle,
   IonContent,
-} from "@ionic/vue";
-import ExploreContainer from "@/components/ExploreContainer.vue";
+  IonHeader,
+  IonPage,
+  IonTitle,
+  IonToolbar,
+} from '@ionic/vue'
+import ExploreContainer from '@/components/ExploreContainer.vue'
 
 export default defineComponent({
-  name: "Tab2Page",
+  name: 'Tab2Page',
   components: {
     ExploreContainer,
     IonHeader,
@@ -38,5 +19,26 @@ export default defineComponent({
     IonContent,
     IonPage,
   },
-});
+})
 </script>
+
+<template>
+  <IonPage>
+    <IonHeader>
+      <IonToolbar>
+        <IonTitle>Tab 2</IonTitle>
+      </IonToolbar>
+    </IonHeader>
+    <IonContent :fullscreen="true">
+      <IonHeader collapse="condense">
+        <IonToolbar>
+          <IonTitle size="large">
+            Tab 2
+          </IonTitle>
+        </IonToolbar>
+      </IonHeader>
+
+      <ExploreContainer name="Tab 2 page" />
+    </IonContent>
+  </IonPage>
+</template>
