@@ -46,8 +46,8 @@ devDependencies:
     specifier: 4.1.1
     version: 4.1.1(@capacitor/core@4.8.0)
   '@capacitor/splash-screen':
-    specifier: 4.1.4
-    version: 4.1.4(@capacitor/core@4.8.0)
+    specifier: 4.2.0
+    version: 4.2.0(@capacitor/core@4.8.0)
   '@types/node':
     specifier: 18.14.0
     version: 18.14.0
@@ -351,8 +351,8 @@ packages:
       '@capacitor/core': 4.8.0
     dev: true
 
-  /@capacitor/splash-screen@4.1.4(@capacitor/core@4.8.0):
-    resolution: {integrity: sha512-ETCxsJa94H4vYOXWLd0KKEmMwme4jrJddfieU0wXhhkRq3Fohv6CxTiG07vYbVzdMkzmWyq17yM5o3TKa3AQCA==}
+  /@capacitor/splash-screen@4.2.0(@capacitor/core@4.8.0):
+    resolution: {integrity: sha512-XtGqM7J/yVEl/tKksKa7l1B6IDzhq4JJkadRuT8ohf/N7fD/1z45+id/4twM2Vnsxazh1fur2gq8rma7HaXMEw==}
     peerDependencies:
       '@capacitor/core': ^4.0.0
     dependencies:
