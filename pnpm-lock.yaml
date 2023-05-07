@@ -5,8 +5,8 @@ dependencies:
     specifier: 6.7.4
     version: 6.7.4
   '@ionic/vue-router':
-    specifier: 6.5.5
-    version: 6.5.5
+    specifier: 6.7.4
+    version: 6.7.4
   ionicons:
     specifier: 7.1.0
     version: 7.1.0
@@ -637,14 +637,6 @@ packages:
       - supports-color
     dev: true
 
-  /@ionic/core@6.5.5:
-    resolution: {integrity: sha512-2o755HOsbJS7IJtpBm7NN/Vl9mFFeu+gYlAerP6lYXw4EHemqITkRMdKDbMrB5eoMkU71ay9U5eV6KRbwzSqPQ==}
-    dependencies:
-      '@stencil/core': 2.22.2
-      ionicons: 6.1.3
-      tslib: 2.5.0
-    dev: false
-
   /@ionic/core@6.7.4:
     resolution: {integrity: sha512-IG6vQtt4xrJdas6k1CwqahD/BWsYK6Gi/BAIN8TumBmtfNMu38iOG6Dh05q4hCQzmDm2xDS/BVD3Qz7AmOKArA==}
     dependencies:
@@ -742,17 +734,10 @@ packages:
       - supports-color
     dev: true
 
-  /@ionic/vue-router@6.5.5:
-    resolution: {integrity: sha512-+utZnPXkT6NdeB48m4zemgYcyOIbTH2jgtZ2q4cJXgHIzSguj7quSY5tEtE2VgBowNKqi6JhAScFO8TSv1RsxA==}
+  /@ionic/vue-router@6.7.4:
+    resolution: {integrity: sha512-eNe22hxW38jft/ttmGTaMvSJBI2E6PMcfmDaB5QlB7LDSwG88nv8B67nCVtll8hyLiZC+ppt7jyyOlMXtJOQJw==}
     dependencies:
-      '@ionic/vue': 6.5.5
-    dev: false
-
-  /@ionic/vue@6.5.5:
-    resolution: {integrity: sha512-uhnhCwP+Nt1X1JeinznJBQyt1BRSnUDAt/R7knHd9n1Fjw3A5qsf4A4c2Bcx8xlsuv3bxP5fFPtKxnHnOPMDAQ==}
-    dependencies:
-      '@ionic/core': 6.5.5
-      ionicons: 6.1.3
+      '@ionic/vue': 6.7.4
     dev: false
 
   /@ionic/vue@6.7.4:
