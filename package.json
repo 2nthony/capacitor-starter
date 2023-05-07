@@ -38,7 +38,7 @@
     "@capacitor/ios": "4.8.0",
     "@capacitor/keyboard": "4.1.1",
     "@capacitor/splash-screen": "4.2.0",
-    "@types/node": "18.14.0",
+    "@types/node": "18.16.5",
     "@vitejs/plugin-vue": "4.0.0",
     "address": "1.2.2",
     "autoprefixer": "10.4.14",
