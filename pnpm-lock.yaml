@@ -37,8 +37,8 @@ devDependencies:
     specifier: 5.0.1
     version: 5.0.1
   '@capacitor/haptics':
-    specifier: 4.1.0
-    version: 4.1.0(@capacitor/core@5.0.1)
+    specifier: 5.0.2
+    version: 5.0.2(@capacitor/core@5.0.1)
   '@capacitor/ios':
     specifier: 5.0.1
     version: 5.0.1(@capacitor/core@5.0.1)
@@ -332,10 +332,10 @@ packages:
       tslib: 2.5.0
     dev: true
 
-  /@capacitor/haptics@4.1.0(@capacitor/core@5.0.1):
-    resolution: {integrity: sha512-gAIFy50e1VZPdokRFLkl8Y+yZYB3e4brd5yu9DRShbWbheruwU34TxtG5C1NANvq4mbXd3tMXzBi59Q5JFyTHA==}
+  /@capacitor/haptics@5.0.2(@capacitor/core@5.0.1):
+    resolution: {integrity: sha512-HGkvL3a8yW26YVR7pfgMpkJrspD0+9sUrBB77SWR/GqQV+m32FTx9ECGlw+sHhwLnv0XtFx4PocIL5SlU1m3Vw==}
     peerDependencies:
-      '@capacitor/core': ^4.0.0
+      '@capacitor/core': ^5.0.0
     dependencies:
       '@capacitor/core': 5.0.1
     dev: true
