@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@ionic/vue':
     specifier: 7.0.6
@@ -22,32 +26,32 @@ devDependencies:
     specifier: ^1.0.1
     version: 1.0.1(eslint@8.36.0)(typescript@5.0.4)
   '@capacitor/android':
-    specifier: 5.0.3
-    version: 5.0.3(@capacitor/core@5.0.3)
+    specifier: 5.7.4
+    version: 5.7.4(@capacitor/core@5.7.4)
   '@capacitor/app':
     specifier: 5.0.2
-    version: 5.0.2(@capacitor/core@5.0.3)
+    version: 5.0.2(@capacitor/core@5.7.4)
   '@capacitor/assets':
     specifier: 2.0.4
     version: 2.0.4(@types/node@18.16.8)(typescript@5.0.4)
   '@capacitor/cli':
-    specifier: 5.0.3
-    version: 5.0.3
+    specifier: 5.7.4
+    version: 5.7.4
   '@capacitor/core':
-    specifier: 5.0.3
-    version: 5.0.3
+    specifier: 5.7.4
+    version: 5.7.4
   '@capacitor/haptics':
     specifier: 5.0.2
-    version: 5.0.2(@capacitor/core@5.0.3)
+    version: 5.0.2(@capacitor/core@5.7.4)
   '@capacitor/ios':
-    specifier: 5.0.3
-    version: 5.0.3(@capacitor/core@5.0.3)
+    specifier: 5.7.4
+    version: 5.7.4(@capacitor/core@5.7.4)
   '@capacitor/keyboard':
     specifier: 5.0.2
-    version: 5.0.2(@capacitor/core@5.0.3)
+    version: 5.0.2(@capacitor/core@5.7.4)
   '@capacitor/splash-screen':
     specifier: 5.0.2
-    version: 5.0.2(@capacitor/core@5.0.3)
+    version: 5.0.2(@capacitor/core@5.7.4)
   '@types/node':
     specifier: 18.16.8
     version: 18.16.8
@@ -240,20 +244,20 @@ packages:
       '@babel/helper-validator-identifier': 7.19.1
       to-fast-properties: 2.0.0
 
-  /@capacitor/android@5.0.3(@capacitor/core@5.0.3):
-    resolution: {integrity: sha512-jPN6JJUbN2cCrAjP+0Q4gIwIxleFVChZWh+/gsbDDfSpogdpZNwZnriUNxSRTZayL58tUzLHuxpJxY6hsddDrA==}
+  /@capacitor/android@5.7.4(@capacitor/core@5.7.4):
+    resolution: {integrity: sha512-9ETwrCaLaimLHbwGpgfsPS9cHcPMFLmKFdlYsFsYIusMO6aOrcQTA9Q4xVAkr55ava4Wk+pVRniRYsekrbOLdw==}
     peerDependencies:
-      '@capacitor/core': ^5.0.0
+      '@capacitor/core': ^5.7.0
     dependencies:
-      '@capacitor/core': 5.0.3
+      '@capacitor/core': 5.7.4
     dev: true
 
-  /@capacitor/app@5.0.2(@capacitor/core@5.0.3):
+  /@capacitor/app@5.0.2(@capacitor/core@5.7.4):
     resolution: {integrity: sha512-TRs5Iu94+IfUJ4iiljWC0tuVsHXBOD4asADggpUH6DnwlQo3cVuRnFK+A0jJnWW9GvlFy9uTsXxytzzXP/V0vQ==}
     peerDependencies:
       '@capacitor/core': ^5.0.0
     dependencies:
-      '@capacitor/core': 5.0.3
+      '@capacitor/core': 5.7.4
     dev: true
 
   /@capacitor/assets@2.0.4(@types/node@18.16.8)(typescript@5.0.4):
@@ -307,8 +311,8 @@ packages:
       - supports-color
     dev: true
 
-  /@capacitor/cli@5.0.3:
-    resolution: {integrity: sha512-VPmd/uKSCYqeLgNTrG2wVaMoCX8lo2UuXFVwP54W4nXPyG6LsDuOKYytkBItTAJrI3KEXdZWyRFbXjIY48/m6g==}
+  /@capacitor/cli@5.7.4:
+    resolution: {integrity: sha512-Cn7ndfMHWfMT+A/wRoeac4/mAxZWNTlZoD1Mn7UQyVV+iGxZB2JpS9omqha7gBN4xrAuTi/X9FqkzrmR+1V96A==}
     engines: {node: '>=16.0.0'}
     hasBin: true
     dependencies:
@@ -320,7 +324,7 @@ packages:
       debug: 4.3.4
       env-paths: 2.2.1
       kleur: 4.1.5
-      native-run: 1.7.2
+      native-run: 2.0.1
       open: 8.4.2
       plist: 3.0.6
       prompts: 2.4.2
@@ -333,42 +337,42 @@ packages:
       - supports-color
     dev: true
 
-  /@capacitor/core@5.0.3:
-    resolution: {integrity: sha512-VxzSoFvoiGDmvlKQMbg7ZZh+w3Z223630kZINDOsbs7UZr5gZws7+m26Y9Oc8n2miI737hE6qOf2VU4H/8Tytg==}
+  /@capacitor/core@5.7.4:
+    resolution: {integrity: sha512-iZBgvx3o4amzKv5ttA+QHB6i7cxK+/mYpCQd1tnSdipg6ZkvfBhg1HkzhEqHk+I7MNur+QwgYDZho9+ycHRwOw==}
     dependencies:
       tslib: 2.5.0
     dev: true
 
-  /@capacitor/haptics@5.0.2(@capacitor/core@5.0.3):
+  /@capacitor/haptics@5.0.2(@capacitor/core@5.7.4):
     resolution: {integrity: sha512-HGkvL3a8yW26YVR7pfgMpkJrspD0+9sUrBB77SWR/GqQV+m32FTx9ECGlw+sHhwLnv0XtFx4PocIL5SlU1m3Vw==}
     peerDependencies:
       '@capacitor/core': ^5.0.0
     dependencies:
-      '@capacitor/core': 5.0.3
+      '@capacitor/core': 5.7.4
     dev: true
 
-  /@capacitor/ios@5.0.3(@capacitor/core@5.0.3):
-    resolution: {integrity: sha512-4U+mfiT0x2oYEJN9NAxcYKdrK4szROMe8SgIiG2lXDG7t7FK1OY4BnB1euZc8c+49VcBSk9x2EiYQg5Nshi5iQ==}
+  /@capacitor/ios@5.7.4(@capacitor/core@5.7.4):
+    resolution: {integrity: sha512-tQH24WMSYVKYr/Jl1gFImooQmu8OdXUFHoDaPV1WpZIiwbwxbTdwOXeLlGes5U8B8t7xuxTWMWMDt3IwRlDbhQ==}
     peerDependencies:
-      '@capacitor/core': ^5.0.0
+      '@capacitor/core': ^5.7.0
     dependencies:
-      '@capacitor/core': 5.0.3
+      '@capacitor/core': 5.7.4
     dev: true
 
-  /@capacitor/keyboard@5.0.2(@capacitor/core@5.0.3):
+  /@capacitor/keyboard@5.0.2(@capacitor/core@5.7.4):
     resolution: {integrity: sha512-5qauopAd9Dlltzi87i/WHMBsocCf0BJqVxRZ3H+kifQm4BLHGokrzuanddEJd6MPOnglSl3H3C9oElJB3wkVVQ==}
     peerDependencies:
       '@capacitor/core': ^5.0.0
     dependencies:
-      '@capacitor/core': 5.0.3
+      '@capacitor/core': 5.7.4
     dev: true
 
-  /@capacitor/splash-screen@5.0.2(@capacitor/core@5.0.3):
+  /@capacitor/splash-screen@5.0.2(@capacitor/core@5.7.4):
     resolution: {integrity: sha512-DJQQL3VfY7LfMH0FJgzrb0N1v3fZw0EVfBRB+xQjbI13jjoafS8WPRCQDvXxzoJqfh5hQyepDRyYxIdOCB2KEA==}
     peerDependencies:
       '@capacitor/core': ^5.0.0
     dependencies:
-      '@capacitor/core': 5.0.3
+      '@capacitor/core': 5.7.4
     dev: true
 
   /@cspotcode/source-map-support@0.8.1:
@@ -679,6 +683,18 @@ packages:
       - supports-color
     dev: true
 
+  /@ionic/utils-fs@3.1.7:
+    resolution: {integrity: sha512-2EknRvMVfhnyhL1VhFkSLa5gOcycK91VnjfrTB0kbqkTFCOXyXgVLI5whzq7SLrgD9t1aqos3lMMQyVzaQ5gVA==}
+    engines: {node: '>=16.0.0'}
+    dependencies:
+      '@types/fs-extra': 8.1.2
+      debug: 4.3.4
+      fs-extra: 9.1.0
+      tslib: 2.6.2
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
   /@ionic/utils-object@2.1.5:
     resolution: {integrity: sha512-XnYNSwfewUqxq+yjER1hxTKggftpNjFLJH0s37jcrNDwbzmbpFTQTVAp4ikNK4rd9DOebX/jbeZb8jfD86IYxw==}
     engines: {node: '>=10.3.0'}
@@ -740,6 +756,23 @@ packages:
       string-width: 4.2.3
       strip-ansi: 6.0.1
       tslib: 2.5.0
+      untildify: 4.0.0
+      wrap-ansi: 7.0.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@ionic/utils-terminal@2.3.5:
+    resolution: {integrity: sha512-3cKScz9Jx2/Pr9ijj1OzGlBDfcmx7OMVBt4+P1uRR0SSW4cm1/y3Mo4OY3lfkuaYifMNBW8Wz6lQHbs1bihr7A==}
+    engines: {node: '>=16.0.0'}
+    dependencies:
+      '@types/slice-ansi': 4.0.0
+      debug: 4.3.4
+      signal-exit: 3.0.7
+      slice-ansi: 4.0.0
+      string-width: 4.2.3
+      strip-ansi: 6.0.1
+      tslib: 2.6.2
       untildify: 4.0.0
       wrap-ansi: 7.0.0
     transitivePeerDependencies:
@@ -1206,6 +1239,11 @@ packages:
 
   /@xmldom/xmldom@0.7.9:
     resolution: {integrity: sha512-yceMpm/xd4W2a85iqZyO09gTnHvXF6pyiWjD2jcOJs7hRoZtNNOO1eJlhHj1ixA+xip2hOyGn+LgcvLCMo5zXA==}
+    engines: {node: '>=10.0.0'}
+    dev: true
+
+  /@xmldom/xmldom@0.8.10:
+    resolution: {integrity: sha512-2WALfTl4xo2SkGCYRt6rDTFfk9R1czmBvUQy12gK2KuRKIpWEhcbbzy8EZXtz/jkRqHX8bFEc6FC1HjX4TUWYw==}
     engines: {node: '>=10.0.0'}
     dev: true
 
@@ -3118,6 +3156,11 @@ packages:
     engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
     dev: true
 
+  /ini@4.1.2:
+    resolution: {integrity: sha512-AMB1mvwR1pyBFY/nSevUX6y8nJWS63/SzUKD3JyQn97s4xgIdgQPT75IRouIiBAN4yLQBUShNYVW0+UG25daCw==}
+    engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
+    dev: true
+
   /internal-slot@1.0.5:
     resolution: {integrity: sha512-Y+R5hJrzs52QCG2laLn4udYVnxsfny9CpOhNhUvk/SSSVyF6T27FzRbF0sroPidSu3X8oEAkOn2K804mjpt6UQ==}
     engines: {node: '>= 0.4'}
@@ -3761,6 +3804,26 @@ packages:
       - supports-color
     dev: true
 
+  /native-run@2.0.1:
+    resolution: {integrity: sha512-XfG1FBZLM50J10xH9361whJRC9SHZ0Bub4iNRhhI61C8Jv0e1ud19muex6sNKB51ibQNUJNuYn25MuYET/rE6w==}
+    engines: {node: '>=16.0.0'}
+    hasBin: true
+    dependencies:
+      '@ionic/utils-fs': 3.1.7
+      '@ionic/utils-terminal': 2.3.5
+      bplist-parser: 0.3.2
+      debug: 4.3.4
+      elementtree: 0.1.7
+      ini: 4.1.2
+      plist: 3.1.0
+      split2: 4.2.0
+      through2: 4.0.2
+      tslib: 2.6.2
+      yauzl: 2.10.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
   /natural-compare-lite@1.4.0:
     resolution: {integrity: sha512-Tj+HTDSJJKaZnfiuw+iaF9skdPpTo2GtEly5JHnWV/hfv2Qj/9RKsGISQtLh2ox3l5EAGw487hnBee0sIJ6v2g==}
     dev: true
@@ -4129,6 +4192,15 @@ packages:
     resolution: {integrity: sha512-WiIVYyrp8TD4w8yCvyeIr+lkmrGRd5u0VbRnU+tP/aRLxP/YadJUYOMZJ/6hIa3oUyVCsycXvtNRgd5XBJIbiA==}
     engines: {node: '>=6'}
     dependencies:
+      base64-js: 1.5.1
+      xmlbuilder: 15.1.1
+    dev: true
+
+  /plist@3.1.0:
+    resolution: {integrity: sha512-uysumyrvkUX0rX/dEVqt8gC3sTBzd4zoWfLeS29nb53imdaXVvLINYXTI2GNqzaMuvacNx4uJQ8+b3zXR0pkgQ==}
+    engines: {node: '>=10.4.0'}
+    dependencies:
+      '@xmldom/xmldom': 0.8.10
       base64-js: 1.5.1
       xmlbuilder: 15.1.1
     dev: true
@@ -4675,6 +4747,11 @@ packages:
     engines: {node: '>= 10.x'}
     dev: true
 
+  /split2@4.2.0:
+    resolution: {integrity: sha512-UcjcJOWknrNkF6PLX83qcHM6KHgVKNkV62Y8a5uYDVv9ydGQVwAHMKqHdJje1VTWpljG0WYpCDhrCdAOYH4TWg==}
+    engines: {node: '>= 10.x'}
+    dev: true
+
   /split@1.0.1:
     resolution: {integrity: sha512-mTyOoPbrivtXnwnIxZRFYRrPNtEFKlpB2fvjSnCQUiAA6qAZzqwna5envK4uk6OIeP17CsdF3rSBGYVBsU0Tkg==}
     dependencies:
@@ -4993,6 +5070,10 @@ packages:
 
   /tslib@2.5.0:
     resolution: {integrity: sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==}
+
+  /tslib@2.6.2:
+    resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
+    dev: true
 
   /tsutils@3.21.0(typescript@5.0.4):
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}
