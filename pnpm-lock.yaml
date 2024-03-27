@@ -1,12 +1,16 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@ionic/vue':
     specifier: 7.0.6
     version: 7.0.6
   '@ionic/vue-router':
-    specifier: 7.0.6
-    version: 7.0.6
+    specifier: 7.8.2
+    version: 7.8.2
   ionicons:
     specifier: 7.1.0
     version: 7.1.0
@@ -657,6 +661,14 @@ packages:
       tslib: 2.5.0
     dev: false
 
+  /@ionic/core@7.8.2:
+    resolution: {integrity: sha512-1Iwe4XSaEYD0u7U/AnnKYNRXmPxx/doTl6pExXq/nlEd7q0AykRkPEy5rClqrQcJOrgFogAx1FwSObfgm0xnNw==}
+    dependencies:
+      '@stencil/core': 4.13.0
+      ionicons: 7.3.1
+      tslib: 2.5.0
+    dev: false
+
   /@ionic/utils-array@2.1.5:
     resolution: {integrity: sha512-HD72a71IQVBmQckDwmA8RxNVMTbxnaLbgFOl+dO5tbvW9CkkSFCv41h6fUuNsSEVgngfkn0i98HDuZC8mk+lTA==}
     engines: {node: '>=10.3.0'}
@@ -746,16 +758,23 @@ packages:
       - supports-color
     dev: true
 
-  /@ionic/vue-router@7.0.6:
-    resolution: {integrity: sha512-qnd/VuMVDrmjTyzaBStLq+NtbC6yeDCGj1/wUAbJPYg6ANWM0DBDAvwsJt2a9AwN6cpgitdrYaA6EakW73IkMw==}
+  /@ionic/vue-router@7.8.2:
+    resolution: {integrity: sha512-axEnjH1VICf9twLRIkuka3REJ+bnMZpf5CN5qaioGUnYh4dgw7mSDCX1UyMsgjI1FsfDqP/7CmLxsOjqEWBucw==}
     dependencies:
-      '@ionic/vue': 7.0.6
+      '@ionic/vue': 7.8.2
     dev: false
 
   /@ionic/vue@7.0.6:
     resolution: {integrity: sha512-c0BG2dFCu0wv41snauz8tDg9q3PVU2Cs63X9BN9fTItpx+XNEnpG0m5plrUz+9y9tp4oogCuecQyVnuCzu+pUQ==}
     dependencies:
       '@ionic/core': 7.0.6
+      ionicons: 7.1.0
+    dev: false
+
+  /@ionic/vue@7.8.2:
+    resolution: {integrity: sha512-29M3EB8LXi8P9Zfbko0yXKimWSNbJmyOf/BDzRJHscTwEMq5saa65gF8+Sk0CL4q+a6XiZa6UV4CPooAQ2b1vA==}
+    dependencies:
+      '@ionic/core': 7.8.2
       ionicons: 7.1.0
     dev: false
 
@@ -825,6 +844,12 @@ packages:
   /@stencil/core@3.2.2:
     resolution: {integrity: sha512-wXb9cVWL0T3cTwYLveekdTFCRGx6+9hpVDEXna+N8K8OPoW6xtFAHRLv+LjOM7k59PkA8MG3IinAfV7Y+xa0Hw==}
     engines: {node: '>=14.10.0', npm: '>=6.0.0'}
+    hasBin: true
+    dev: false
+
+  /@stencil/core@4.13.0:
+    resolution: {integrity: sha512-gg+gtBWekQ08mDja8GVAUHNu+rrFhQaKZDvfhnS3l/5JbYiJddTimuDPPhuc0sR0JZL1iRdJTJSa+JbvmnQ1cQ==}
+    engines: {node: '>=16.0.0', npm: '>=7.10.0'}
     hasBin: true
     dev: false
 
@@ -3131,6 +3156,12 @@ packages:
     resolution: {integrity: sha512-iE4GuEdEHARJpp0sWL7WJZCzNCf5VxpNRhAjW0fLnZPnNL5qZOJUcfup2Z2Ty7Jk8Q5hacrHfGEB1lCwOdXqGg==}
     dependencies:
       '@stencil/core': 2.22.2
+    dev: false
+
+  /ionicons@7.3.1:
+    resolution: {integrity: sha512-1boG4EQTBBpQ4/0PU60Yi78Iw/k8iNtKu9c0NmsbzHGnWAcwpiovG9Wi/rk5UlF+DC+CR4XDCxKo91YqvAxkww==}
+    dependencies:
+      '@stencil/core': 4.13.0
     dev: false
 
   /is-alphabetical@1.0.4:
