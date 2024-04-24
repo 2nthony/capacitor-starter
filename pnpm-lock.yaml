@@ -1,9 +1,13 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@ionic/vue':
-    specifier: 7.0.6
-    version: 7.0.6
+    specifier: 7.8.6
+    version: 7.8.6
   '@ionic/vue-router':
     specifier: 7.0.6
     version: 7.0.6
@@ -657,6 +661,14 @@ packages:
       tslib: 2.5.0
     dev: false
 
+  /@ionic/core@7.8.6:
+    resolution: {integrity: sha512-HAYZdEmeJgOdo2kDlZkcCGHb+zs/vjU6iv4skbVBL7y+OnSv/oC2u83Yee8S3/aY0YAxkyBgu7hLTYH13Zc2Aw==}
+    dependencies:
+      '@stencil/core': 4.17.1
+      ionicons: 7.3.1
+      tslib: 2.5.0
+    dev: false
+
   /@ionic/utils-array@2.1.5:
     resolution: {integrity: sha512-HD72a71IQVBmQckDwmA8RxNVMTbxnaLbgFOl+dO5tbvW9CkkSFCv41h6fUuNsSEVgngfkn0i98HDuZC8mk+lTA==}
     engines: {node: '>=10.3.0'}
@@ -759,6 +771,13 @@ packages:
       ionicons: 7.1.0
     dev: false
 
+  /@ionic/vue@7.8.6:
+    resolution: {integrity: sha512-WVngbTA08SlVbyj4rS9krVJ2Z9Uv/MG1xItDS7WqMPeVwRNGaOiw6MkxjXRcpIz6qE0b+6EjIcte5h4nGRiDCw==}
+    dependencies:
+      '@ionic/core': 7.8.6
+      ionicons: 7.1.0
+    dev: false
+
   /@jridgewell/gen-mapping@0.3.3:
     resolution: {integrity: sha512-HLhSWOLRi875zjjMG/r+Nv0oCW8umGb0BgEhyX3dDX3egwZtB8PqLnjz3yedt8R5StBrzcg4aBpnh8UA9D1BoQ==}
     engines: {node: '>=6.0.0'}
@@ -825,6 +844,12 @@ packages:
   /@stencil/core@3.2.2:
     resolution: {integrity: sha512-wXb9cVWL0T3cTwYLveekdTFCRGx6+9hpVDEXna+N8K8OPoW6xtFAHRLv+LjOM7k59PkA8MG3IinAfV7Y+xa0Hw==}
     engines: {node: '>=14.10.0', npm: '>=6.0.0'}
+    hasBin: true
+    dev: false
+
+  /@stencil/core@4.17.1:
+    resolution: {integrity: sha512-nlARe1QtK5abnCG8kPQKJMWiELg39vKabvf3ebm6YEhQA35CgrxC1pVYTsYq3yktJKoY+k+VzGRnATLKyaLbvA==}
+    engines: {node: '>=16.0.0', npm: '>=7.10.0'}
     hasBin: true
     dev: false
 
@@ -3131,6 +3156,12 @@ packages:
     resolution: {integrity: sha512-iE4GuEdEHARJpp0sWL7WJZCzNCf5VxpNRhAjW0fLnZPnNL5qZOJUcfup2Z2Ty7Jk8Q5hacrHfGEB1lCwOdXqGg==}
     dependencies:
       '@stencil/core': 2.22.2
+    dev: false
+
+  /ionicons@7.3.1:
+    resolution: {integrity: sha512-1boG4EQTBBpQ4/0PU60Yi78Iw/k8iNtKu9c0NmsbzHGnWAcwpiovG9Wi/rk5UlF+DC+CR4XDCxKo91YqvAxkww==}
+    dependencies:
+      '@stencil/core': 4.17.1
     dev: false
 
   /is-alphabetical@1.0.4:
