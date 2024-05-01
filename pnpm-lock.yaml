@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@ionic/vue':
     specifier: 7.0.6
@@ -8,8 +12,8 @@ dependencies:
     specifier: 7.0.6
     version: 7.0.6
   ionicons:
-    specifier: 7.1.0
-    version: 7.1.0
+    specifier: 7.4.0
+    version: 7.4.0
   vue:
     specifier: 3.3.2
     version: 3.3.2
@@ -653,7 +657,7 @@ packages:
     resolution: {integrity: sha512-ssZs8QzyNPmGCUdK5i5OupA7BDmOjJEOhqfpNGbxwXX3YQ08naVDjNxYn/VSW9O1zSyfecJqJz0Akw/LdKIN/Q==}
     dependencies:
       '@stencil/core': 3.2.2
-      ionicons: 7.1.0
+      ionicons: 7.4.0
       tslib: 2.5.0
     dev: false
 
@@ -756,7 +760,7 @@ packages:
     resolution: {integrity: sha512-c0BG2dFCu0wv41snauz8tDg9q3PVU2Cs63X9BN9fTItpx+XNEnpG0m5plrUz+9y9tp4oogCuecQyVnuCzu+pUQ==}
     dependencies:
       '@ionic/core': 7.0.6
-      ionicons: 7.1.0
+      ionicons: 7.4.0
     dev: false
 
   /@jridgewell/gen-mapping@0.3.3:
@@ -816,15 +820,15 @@ packages:
       prettier: 2.8.4
     dev: true
 
-  /@stencil/core@2.22.2:
-    resolution: {integrity: sha512-r+vbxsGNcBaV1VDOYW25lv4QfXTlNoIb5GpUX7rZ+cr59yqYCZC5tlV+IzX6YgHKW62ulCc9M3RYtTfHtNbNNw==}
-    engines: {node: '>=12.10.0', npm: '>=6.0.0'}
-    hasBin: true
-    dev: false
-
   /@stencil/core@3.2.2:
     resolution: {integrity: sha512-wXb9cVWL0T3cTwYLveekdTFCRGx6+9hpVDEXna+N8K8OPoW6xtFAHRLv+LjOM7k59PkA8MG3IinAfV7Y+xa0Hw==}
     engines: {node: '>=14.10.0', npm: '>=6.0.0'}
+    hasBin: true
+    dev: false
+
+  /@stencil/core@4.17.2:
+    resolution: {integrity: sha512-MX7yaLmpTU9iZvCire9nhecTcE0qBlV0vPWrLMeIXewYN7/hb8B3NjnhQyBKC93FDPI8NBRmt6KIugLw9zcRZg==}
+    engines: {node: '>=16.0.0', npm: '>=7.10.0'}
     hasBin: true
     dev: false
 
@@ -3127,10 +3131,10 @@ packages:
       side-channel: 1.0.4
     dev: true
 
-  /ionicons@7.1.0:
-    resolution: {integrity: sha512-iE4GuEdEHARJpp0sWL7WJZCzNCf5VxpNRhAjW0fLnZPnNL5qZOJUcfup2Z2Ty7Jk8Q5hacrHfGEB1lCwOdXqGg==}
+  /ionicons@7.4.0:
+    resolution: {integrity: sha512-ZK94MMqgzMCPPMhmk8Ouu6goyVHFIlw/ACP6oe3FrikcI0N7CX0xcwVaEbUc0G/v3W0shI93vo+9ve/KpvcNhQ==}
     dependencies:
-      '@stencil/core': 2.22.2
+      '@stencil/core': 4.17.2
     dev: false
 
   /is-alphabetical@1.0.4:
