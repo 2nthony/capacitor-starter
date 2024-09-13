@@ -25,7 +25,7 @@
     "@ionic/vue-router": "7.0.6",
     "ionicons": "7.1.0",
     "vue": "3.3.2",
-    "vue-router": "4.2.0"
+    "vue-router": "4.4.5"
   },
   "devDependencies": {
     "@2nthony/eslint-config": "^1.0.1",
