@@ -38,7 +38,7 @@
     "@capacitor/ios": "5.0.3",
     "@capacitor/keyboard": "5.0.2",
     "@capacitor/splash-screen": "5.0.2",
-    "@types/node": "18.16.8",
+    "@types/node": "18.19.56",
     "@vitejs/plugin-vue": "4.2.3",
     "address": "1.2.2",
     "autoprefixer": "10.4.14",
